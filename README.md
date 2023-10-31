@@ -103,8 +103,6 @@ The dataset contains 25 variables, including client IDs, credit amounts, gender,
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `PAY_AMT4` | `float64` | **Required**. Amount of due payment recieved for 4th month |
-
-| Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `PAY_AMT5` | `float64` | **Required**. Amount of due payment recieved for 5th month |
 
@@ -116,7 +114,7 @@ The dataset contains 25 variables, including client IDs, credit amounts, gender,
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `default.payment.next.month`      | `int` | **One** if customer will default otherwise **Zero**|
+| `default.payment.next.month`      | `int` | **1** if customer will default otherwise **Zero**|
 
 The output is a binary classification prediction, as described, indicating whether a customer is likely to default on their credit card payment.
 
